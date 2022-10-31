@@ -120,12 +120,12 @@ h3 {
   color: var(--white);
 }
 
-button.rounded {
+.btn.rounded {
   border-radius: 25px;
   border-color: transparent;
 }
 
-button.square {
+.btn.square {
   border-radius: 5px;
 }
 
@@ -172,7 +172,7 @@ button.square {
   background-color: var(--green);
 }
 /* //////////////////////////////////////////////////////////// */
-header {
+.header {
   width: 100%;
   height: auto;
   top: 0;
@@ -180,13 +180,13 @@ header {
   background-color: #000000;
 }
 
-header .container {
+.header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header .navigation-wrapper {
+.header .navigation-wrapper {
   display: flex;
   align-items: center;
 }
@@ -223,7 +223,7 @@ header .navigation-wrapper {
   color: var(--white);
 }
 
-nav ul {
+.nav-list {
   list-style: none;
   display: flex;
   flex-wrap: nowrap;
@@ -231,7 +231,7 @@ nav ul {
   color: var(--white);
 }
 
-nav a {
+.nav-item {
   margin-right: 58px;
   font-family: var(--font-family-base);
   font-style: normal;
@@ -241,12 +241,13 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover {
+.nav-item:hover,
+.nav-item:focus {
   cursor: pointer;
   color: var(--orange);
 }
 
-.design-author a:hover {
+.figma-link a:hover {
   color: var(--orange);
 }
 
@@ -254,11 +255,11 @@ li a {
   color: inherit;
 }
 
-li.current {
+.nav-item.current {
   color: var(--orange);
 }
 
-.design-author a {
+.figma-link a {
   font-family: var(--font-family-base);
   font-style: normal;
   font-weight: 500;
@@ -309,7 +310,7 @@ body {
   align-items: center;
 }
 
-h2.banner-title {
+.banner-title {
   width: 500px;
   height: auto;
   margin-bottom: 60px;
@@ -324,11 +325,11 @@ h2.banner-title {
   z-index: 1;
 }
 
-h2.banner-title span {
+.banner-title span {
   color: var(--yellow);
 }
 
-.banner img {
+.banner-img {
   width: 100%;
   height: auto;
   object-fit: contain;
@@ -346,7 +347,7 @@ h2.banner-title span {
 }
 /* //////////////////////////////////////////////////////////// */
 
-.backstage.block {
+.backstage.section {
   margin-top: 140px;
   margin-bottom: 140px;
 }
@@ -356,7 +357,7 @@ h2.banner-title span {
   gap: 87px;
 }
 
-.backstage-content img {
+.backstage-img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -387,8 +388,7 @@ h2.banner-title span {
   margin-top: -140px;
 }
 /* //////////////////////////////////////////////////////////// */
-
-div.pets.block {
+.pets.section {
   margin-top: 180px;
   display: flex;
   justify-content: center;
@@ -524,7 +524,7 @@ div.pets.block {
 }
 /* //////////////////////////////////////////////////////////// */
 
-.pick-and-feed.block {
+.pick-and-feed.section {
   width: 100%;
   height: auto;
   background: var(--orange_gradient);
@@ -634,7 +634,7 @@ div.pets.block {
 }
 /* //////////////////////////////////////////////////////////// */
 
-.testimonials.block {
+.testimonials.section {
   margin-top: 140px;
   margin-bottom: 180px;
 }
