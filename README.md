@@ -1,1 +1,1 @@
-https://olesiatr.github.io/online-zoo/
+https://olesiatr.github.io/online-zoo/pages/main/
