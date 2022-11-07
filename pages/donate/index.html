@@ -41,9 +41,9 @@
     <main>
         <section class="panda-banner"></section>
         <!-- DONATION INFORMATION BLOCK -->
-        <section class="feed">
+        <section class="pick-feed">
             <div class="container">
-                <div class="feed-text">
+                <div class="pick-feed--text">
                     <h3>THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
                     <p>Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with
                         educational
@@ -57,81 +57,82 @@
                         mission.</p>
                     <h3>Donation Information</h3>
                 </div>
-                <div class="feed-donation-info">
-                    <h2>Pick and feed a friend</h2>
-                    <p class="subtitle">We know the animals bring you joy, and in these extraordinary times, we’re glad.
+                <div class="pick-feed--donation">
+                    <h2 class="pick-feed--title">Pick and feed a friend</h2>
+                    <p class="pick-feed--context">We know the animals bring you joy, and in these extraordinary times,
+                        we’re glad.
                     </p>
-                    <div class="feed-count-wrap">
-                        <div class="feed-count-content">
+                    <div class="pick-feed--wrap">
+                        <div class="pick-feed--content">
                             <div>4</div>
                             <p>Panda diet for the day.</p>
                         </div>
-                        <div class="ic-wrap">
+                        <div class="dollar-wrap">
                             <img src="../../assets/icons/x_icon.svg" alt="x icon">
                         </div>
-                        <img class="animals-widget" src="../../assets/icons/animals-widget.svg" alt="animal image">
+                        <img class="animals-widget" src="../../assets/icons/animals-widget.svg" alt="cute panda svg">
                     </div>
-                    <div class="feed-range-container">
+                    <div class="counter">
                         <p>Amount</p>
-                        <div class="feed-range">
-                            <div class="feed-range-line"></div>
-                            <ul class="feed-range-dot-container">
-                                <li class="feed-range-dot">
-                                    <div class="yellow-dot"></div>
+                        <div class="counter-area">
+                            <div class="counter-area--line"></div>
+                            <ul class="counter-area--container">
+                                <li class="counter-area--dot">
+                                    <div class="dot"></div>
                                 </li>
-                                <li class="feed-range-dot">
-                                    <div class="yellow-dot"></div>
+                                <li class="counter-area--dot">
+                                    <div class="dot"></div>
                                 </li>
-                                <li class="feed-range-dot active-dot">
-                                    <div class="yellow-dot"></div>
+                                <li class="counter-area--dot active-dot">
+                                    <div class="dot"></div>
                                 </li>
-                                <li class="feed-range-dot">
-                                    <div class="yellow-dot"></div>
+                                <li class="counter-area--dot">
+                                    <div class="dot"></div>
                                 </li>
-                                <li class="feed-range-dot">
-                                    <div class="yellow-dot"></div>
+                                <li class="counter-area--dot">
+                                    <div class="dot"></div>
                                 </li>
-                                <li class="feed-range-dot">
-                                    <div class="yellow-dot"></div>
+                                <li class="counter-area--dot">
+                                    <div class="dot"></div>
                                 </li>
-                                <li class="feed-range-dot">
-                                    <div class="yellow-dot"></div>
+                                <li class="counter-area--dot">
+                                    <div class="dot"></div>
                                 </li>
-                                <li class="feed-range-dot">
-                                    <div class="yellow-dot"></div>
+                                <li class="counter-area--dot">
+                                    <div class="dot"></div>
                                 </li>
                             </ul>
                         </div>
-                        <ul class="feed-range-values">
-                            <li class="range-value">
+                        <ul class="dollar-amount">
+                            <li class="total-amount">
                                 <img src="../../assets/icons/dollar.svg" alt="dollar icon">
                                 <p class="label">5000</p>
                             </li>
-                            <li class="range-value">
+                            <li class="total-amount">
                                 <img src="../../assets/icons/dollar.svg" alt="dollar icon">
                                 <p class="label">2000</p>
                             </li>
-                            <li class="range-value">
+                            <li class="total-amount">
                                 <img src="../../assets/icons/dollar-goal.svg" alt="dollar icon">
                                 <p class="label active">1000</p>
                             </li>
-                            <li class="range-value">
+                            <li class="total-amount">
                                 <img src="../../assets/icons/dollar.svg" alt="dollar icon">
                                 <p class="label">500</p>
                             </li>
-                            <li class="range-value">
+                            <li class="total-amount">
                                 <img src="../../assets/icons/dollar.svg" alt="dollar icon">
                                 <p class="label">250</p>
                             </li>
-                            <li class="range-value">
+                            <li class="total-amount">
                                 <img src="../../assets/icons/dollar.svg" alt="dollar icon">
                                 <p class="label">100</p>
                             </li>
-                            <li class="range-value">
+                            <li class="total-amount">
                                 <img src="../../assets/icons/dollar.svg" alt="dollar icon">
                                 <p class="label">50</p>
                             </li>
-                            <li class="range-value">
+                            <li class="total-amount">
                                 <img src="../../assets/icons/dollar.svg" alt="dollar icon">
                                 <p class="label">25</p>
                             </li>
@@ -144,18 +145,18 @@
                         </form>
                         <img class="dollar" src="../../assets/icons/dollar-grey.svg" alt="dollar icon">
                     </div>
-                    <form class="monthly-once">
-                        <div class="payment">
-                            <input type="radio" name="payment" id="monthly" value="Monthly">
+                    <form class="monthly-or-once">
+                        <div class="donation">
+                            <input type="radio" name="donation" id="monthly" value="Monthly">
                             <label for="monthly">Monthly</label>
                         </div>
-                        <div class="payment">
-                            <input type="radio" name="payment" id="once" value="once" checked>
+                        <div class="donation">
+                            <input type="radio" name="donation" id="once" value="once" checked>
                             <label for="once">Once</label>
                         </div>
                     </form>
                     <button class="btn rounded" type="button">Feed a friend now</button>
-                    <p class="share">Share with your friends on social networks</p>
+                    <p class="networks">Share with your friends on social networks</p>
                 </div>
             </div>
         </section>
@@ -198,7 +199,7 @@
                 </div>
                 <div class="nav-bar">
                     <ul class="nav-list">
-                        <li class="nav-item current" value="about"><a href="../main/" class="nav-link">About</a></li>
+                        <li class="nav-item" value="about"><a href="../main/" class="nav-link">About</a></li>
                         <li class="nav-item" value="map"><a href="#map" class="nav-link">Map</a></li>
                         <li class="nav-item" value="zoos"><a href="#zoos" class="nav-link">Zoos</a></li>
                         <li class="nav-item" value="contact"><a href="#contact" class="nav-link">Contact us</a></li>
